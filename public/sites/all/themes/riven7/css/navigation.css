@@ -1,0 +1,86 @@
+/**
+ * @file
+ * Navigation Styling
+ */
+
+
+/*
+ * The active item in a Drupal menu
+ */
+li a.active {
+  color: #000;
+}
+
+/*
+ * Navigation bar
+ */
+#navigation {
+  /* overflow: hidden; /* Sometimes you want to prevent overlapping with main div. */
+}
+
+#navigation ul.links/* Main menu and secondary menu links */
+#navigation .content ul /* Menu block links */ {
+  margin: 0;
+  padding: 0;
+  text-align: left; /* LTR */
+}
+
+#navigation ul.links li/* A simple method to get navigation links to appear in one line. */
+#navigation .content li {
+  float: left; /* LTR */
+  padding: 0 10px 0 0; /* LTR */
+}
+
+.region-navigation {
+}
+
+/*
+ * Main menu and Secondary menu links
+ */
+#main-menu {
+}
+
+#secondary-menu {
+}
+
+/*
+ * Menu blocks
+ */
+.block-menu {
+}
+
+/*
+ * "Menu block" blocks. See http://drupal.org/project/menu_block
+ */
+.block-menu-block {
+}
+#breadcrumb { padding:5px 0 10px;}
+#breadcrumb ul { 
+	text-align:left;
+	display:inline;
+	margin:0;
+	padding:5px 0; }
+#breadcrumb ul li { 
+	display:inline;
+	padding:0;
+	margin:0;
+	border-left:none;}
+#breadcrumb ul li + li { 
+	border-left:1px solid #666666;
+	padding-left:10px; 
+	margin-left:10px;}
+#footer p, #footer ul {	text-align:right;}
+#footer ul { 
+	float:right;
+	display:inline;
+	margin:0; }
+#footer ul li{ 
+	display:inline;
+	padding-left:10px; 
+	margin-left:10px;
+	border-left:none;}
+#footer ul li + li { border-left:1px solid #666666;}
+#footer #block-menu-menu-legal { 
+	margin:0;
+	padding-bottom:1em;}
+#footer #block-menu-menu-legal div { overflow:auto;}

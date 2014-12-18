@@ -1,0 +1,434 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-size:1.1em;
+}
+a { 
+	text-decoration:underline;
+	font-weight:bold; }
+a:link { color:#437cbf; }
+a:visited { color:#4E668B; }
+a:hover {
+	color:#1A5273;
+	text-decoration:none;
+}
+#page-wrapper {
+	padding:0;
+	margin:36px 36px 36px 0;
+}
+#page { padding-top:15px;}
+.view-id-wallpaper .view-content { overflow:auto;}
+.view-id-wallpaper .views-row { 
+	float:left;
+	margin-right:20px;}
+body #comments { margin-top:72px;}
+#riventree {
+	width:296px;
+	height:360px;
+	position:absolute;
+	top:0;}
+.skip a, .skip a:hover, .skip a:visited {
+	position:absolute;
+	left:-1000px;
+}
+.skip a:active, .skip a:focus {
+	position:absolute;
+	left:72px;
+	top:36px;
+	background-color:#000000;
+	color:#FFFFFF;
+	padding:5px;
+}
+#content .skip { width:95%; }
+#content .skip a:active#content .skip a:focus {
+	left:200px;
+	top:200px;
+}
+.element-invisible, #breadcrumb h2 {
+  position: absolute;
+  left:-1000px;
+}
+#bottom.skip a:active#bottom.skip a:focus {
+	left:200px;
+	top:90%;
+}
+#contentlink { width:100%; }
+.jump { height:1px; }
+
+#header {
+	margin-right: -15px;
+}
+#header-inner {	padding:25px;
+}
+#header h1 { 
+	text-align:right;
+	margin:0;
+	padding:0 36px 0 0;}
+#logo {
+  margin: 0;
+  padding: 0;
+}
+#logo a { display:block;}
+#content {	}
+#content .section{	}
+#logo img {
+  vertical-align: bottom;
+}
+.region-header /* Wrapper for any blocks placed in the header region */ {
+  clear: both; /* Clear the logo */
+}
+
+/*
+ * Main (container for everything else)
+ */
+#main-wrapper {
+}
+
+#main {
+}
+
+/*
+ * Content
+ */
+#content-wrap { float:left; width:100%;}
+#content {
+}
+
+#content .section {
+}
+
+#mission /* The mission statement of the site (displayed on homepage) */ {
+}
+
+.region-content-top /* Wrapper for any blocks placed in the "content top" region */ {
+}
+
+.breadcrumb /* The path to the current page in the form of a list of links */ {
+  padding-bottom: 0; /* Undo system.css */
+}
+
+h1.title/* The title of the page */
+h2.node-title/* Title of a piece of content when it is given in a list of content */
+h2.block-title/* Block title */
+h2.title/* Comment section heading */
+h2.comment-form/* Comment form heading */
+h3.title /* Comment title */ {
+  margin: 0;
+}
+
+tr.even /* Some tables have rows marked even or odd. */ {
+  /* background-color: #eee; */ /* Drupal core uses a #eee background */
+}
+
+tr.odd {
+  /* background-color: #eee; */ /* Drupal core uses a #eee background */
+}
+
+div.messages /* Important messages (statuswarningand error) for the user. See also the declarations in messages.css. */ {
+}
+
+div.status /* Normal priority messages */ {
+}
+
+div.warning, tr.warning /* Medium priority messages */ {
+  /* border: 1px solid #f0c020; */ /* Drupal core uses: 1px solid #f0c020 */
+}
+
+div.error, tr.error /* High priority messages. See also the .error declaration below. */ {
+}
+
+.error /* Errors that are separate from div.messages status messages. */ {
+  /* color: #e55; */ /* Drupal core uses a #e55 background */
+}
+
+.warning /* Warnings that are separate from div.messages status messages. */ {
+  /* color: #e09010; */ /* Drupal core uses a #e09010 background */
+}
+
+div.tabs /* See also the tabs.css file. */ {
+}
+
+.help /* Help text on a page */ {
+  margin: 1em 0;
+}
+
+.more-help-link /* Link to more help */ {
+  font-size: 0.85em;
+  text-align: right;
+}
+
+.region-content /* Wrapper for the actual page content */ {
+}
+
+ul.links /* List of links */ {
+  margin: 1em 0;
+  padding: 0;
+}
+
+ul.links.inline {
+  margin: 0;
+  display: inline;
+}
+
+ul.links li {
+  display: inline;
+  list-style-type: none;
+  padding: 0 0.5em;
+}
+
+.pager /* A list of page numbers when more than 1 page of content is available */ {
+  clear: both;
+  margin: 1em 0;
+  text-align: center;
+}
+
+.pager a, .pager strong.pager-current /* Each page number in the pager list */ {
+  padding: 0.5em;
+}
+
+.feed-icon /* The link to the RSS or Atom feed for the current list of content */ {
+  margin: 1em 0;
+}
+
+.more-link /* Aggregatorblogand forum more link */ {
+  text-align: right; /* LTR */
+}
+
+.region-content-bottom /* Wrapper for any blocks placed in the "content bottom" region */ {
+}
+
+.region-sidebar-first {
+}
+
+.region-sidebar-first .section {
+}
+.region-sidebar-second {
+}
+.region-sidebar-second .section {
+}
+
+/*
+ * Footer
+ */
+#footer { padding-right:10px;
+}
+
+#footer .section {
+}
+
+#footer-message /* Wrapper for the footer message from Drupal's "Site information"
+                   and for any blocks placed in the footer region */ {
+}
+
+.region-footer {
+}
+
+/*
+ * Page bottom
+ */
+.region-bottom /* Wrapper for any blocks placed in the page bottom region */ {
+}
+body { }
+#page-wrapper {
+  min-width: 960px; /* Don't allow the browser to make the site unreadable. */
+}
+
+#page { }
+#header { }
+
+#header .section {
+}
+
+#search-box {
+}
+
+.region-header {}
+
+/*
+ * Main (container for everything else)
+ */
+#main-wrapper {}
+
+#main {
+}
+#content {
+  margin: 0; /* LTR */
+  padding: 0 15px 0 0; /* DO NOT CHANGE. Add padding or margin to #content .section. */
+}
+#content .section, .no-sidebars #content .section {
+  margin: 0;
+  padding: 0 0 0 336px;
+}
+
+.sidebar-first #content .section {
+  padding-left: 336px; /* LTR */ /* The width + left margin of .region-sidebar-first. */
+  padding-right: 0px; /* LTR */
+}
+
+.sidebar-second #content .section {
+  padding-right: 200px; /* LTR */ /* The width + right margin of .region-sidebar-second. */
+}
+
+.two-sidebars #content .section {
+  padding-right: 200px; /* The width + right margin of .region-sidebar-second. */
+}
+
+/*
+ * Navigation
+ */
+#navigation {
+  float: left; /* LTR */
+  width: 100%;
+  margin-left: 0; /* LTR */
+  margin-right: -100%; /* LTR */ /* Negative value of #navigation's width + left margin. */
+  padding: 0; /* DO NOT CHANGE. Add padding or margin to #navigation .section. */
+  height: 2.3em; /* The navigation can have any arbritrary height. We picked one
+                    that is the line-height plus 1em: 1.3 + 1 = 2.3
+                    Set this to the same value as the margin-top below. */
+}
+
+.with-navigation #content, .with-navigation .region-sidebar-first, .with-navigation .region-sidebar-second {}
+
+#navigation .section {
+}
+
+/*
+ * First sidebar
+ */
+#main-wrapper .region-sidebar-first {
+  float: left; 
+  width: 225px;
+  margin-left: 36px;	
+  padding: 100px 0 0 0;
+}
+.region-sidebar-first .section {
+  margin: 0 20px 0 0; /* LTR */
+ 
+}
+.region-sidebar-first .section {
+  background-color:#000000;
+  color:#FFFFFF;}
+.region-sidebar-first .section a { color:#FFFFFF;}
+/*
+ * Second sidebar
+ */
+.region-sidebar-second {
+  float: right; 
+  width: 200px;
+  margin: 0; 
+  padding: 0;
+ }
+.region-sidebar-second .section {
+  margin: 0 0 0 20px; /* LTR */
+  padding: 0;
+}
+
+/*
+ * Footer
+ */
+#footer {
+}
+
+#footer .section {
+}
+
+/*
+ * Page bottom
+ */
+.region-bottom /* See also the #page-wrapper declaration above that this div shares. */ {
+}
+
+/*
+ * Prevent overflowing content
+ */
+#header, #content, #navigation, .region-sidebar-first, .region-sidebar-second, #footer, .region-bottom {
+  overflow: visible;
+  word-wrap: break-word; /* A very nice CSS3 property */
+}
+
+/*
+ * If a div.clearfix doesn't have any content after it and its bottom edge
+ * touches the bottom of the viewportFirefox and Safari will mistakenly
+ * place several pixels worth of space between the bottom of the div and the
+ * bottom of the viewport. Uncomment this CSS property to fix this.
+ * Note: with some over-large contentthis property might cause scrollbars
+ * to appear on the #page-wrapper div.
+ */
+/*
+#page-wrapper {
+  overflow-y: hidden;
+}
+*/
+div.more-link { text-align:left;}
+.align-center { text-align:center;}
+.align-left { text-align:left;}
+.align-right { text-align:right;}
+img.float-left { float: left; margin-right:10px; border:1px solid #000000;}
+img.float-right { float: right; margin-left:10px; border:1px solid #000000;}
+#block-node-syndicate h2 {
+position:absolute;
+left:-500px;}
+.larger { 
+	font-size:1.3em;
+	font-style:italic;}
+.cleaner { clear:both;}
+.cleaner.copyright { padding-top:25px;}
+.node-type-series .views-field-field-wppr-ipad { padding:10px 0;}
+.view-id-wallpaper .more-link { font-size:.9em;}
+#block-search-form { padding:10px 0;}
+#block-block-2 {
+	text-align:center;
+	font-weight:bold;}
+body #page .clearfix {}
+.view-wallpaper .view-header { padding-bottom:20px;}
+
+.field-name-field-wppr-ipad { margin:5px 0;}
+div.img-left {float:left; margin:0 15px 0 0;}
+div.img-left.full {margin-right:30px;}
+div.img-right {float:right; margin:0 0 0 15px;}
+div.img-left img, div.img-right img, .wallpaper-view img, .field-name-field-wppr-ipad img, .views-field-field-wppr-ipad img, .views-field-field-wppr-ipad img, div.ipad-full img, .color-teaser img { 
+	-moz-box-shadow: 10px 10px 5px #888;
+	-webkit-box-shadow: 10px 10px 5px #888;
+	box-shadow: 10px 10px 5px #888;
+	border:1px solid #000000;}
+#block-views-wallpaper-block .wallpaper-view img { 
+	box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;}
+.node-ipad .field-name-field-wppr-ipad{ margin:10px 0;} 
+.field-name-field-srs-view { 
+	overflow:hidden;
+	margin:30px 0; }
+.field-name-field-srs-view .views-row, div.ipad-full, .color-teaser  { 
+	float:left;
+	margin-right:20px;}
+.page-wallpaper-series .views-field-field-wppr-ipad, #series-pane .views-row { 
+	float:left;
+	margin:5px 20px 0 0;}
+.page-wallpaper-series .node-series { overflow:auto;}
+.view-News .views-row { overflow:auto;}
+.node-ipad ul.links {
+	padding:0;
+	margin:0;}
+.node-ipad .content { margin-bottom:20px;}
+.node-ipad .content .clearfix { }
+.field-name-field-wppr-color .field-label, .field-name-field-wppr-color .field-items { float:none;}
+.field .field-label { display:inline;}
+span.label {font-weight:bold;}
+.field-type-taxonomy-term-reference .field-items { display:inline;}
+.field-type-taxonomy-term-reference .field-items .field-item { 
+	display:inline;
+	margin: 2px 0;
+	padding: 0 4px 0 6px;}
+.field-type-taxonomy-term-reference .field-items .field-item + .field-item { border-left: 1px solid #666666; }
+div.field-name-field-wp-series { margin-top:7px;}
+div.inline { padding-bottom:7px}
+div.inline ul, div.inline li { display:inline; margin:0; padding:0;}
+div.inline li { padding-right:7px;}
+div.inline li + li { padding-left:7px; border-left:1px solid #666;}
+p.post-date { font-weight:bold; font-style:italic; font-size:1.1em;}
+.teaser-title { font-size:1.2em; font-weight:bold; margin-top:10px;}
+.view-id-series { overflow:hidden;}
+.view-id-series .series-teaser { padding-right:3%; width:45%; float:left;}
+h2.other {margin: 40px 0 7px;}
+h3.teaser {margin-bottom:0;}

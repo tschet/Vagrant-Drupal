@@ -1,0 +1,56 @@
+/**
+ * @file
+ * Page Background Styling
+ *
+ * The default layout method of Zen doesn't give themers equal-height columns.
+ * Howeverequal-height columns are difficult to achieve and totally
+ * unnecessary. Insteaduse the Faux Columns method described in the following
+ * ALA article:
+ *   http://www.alistapart.com/articles/fauxcolumns/
+ */
+
+
+body { 
+	background-color:#FFFFFF;
+	color:#000000;}
+body.html { 
+	background-color:#000000;
+	color:#FFFFFF;}
+#page-wrapper {
+	background-color:#FFFFFF;
+	color:#000000;
+	background-image: url(../images/riven-sidebar-trans.png);
+	background-repeat: repeat-y;
+	background-position: left top;
+}
+#page {
+	background-image:url(../images/content-fade.png);
+	background-position:right;
+	background-repeat:repeat-y;
+}
+#riventree {
+	background-image:url(../images/riventree-logo-web.png);
+	background-position:top left;
+	background-repeat:no-repeat;	
+}
+#header {
+	background-image:url(../images/header-fade.png);
+	background-position:right;
+	background-repeat:repeat-y;
+}
+#header-inner{
+}
+#main-wrapper {
+}
+
+#main {
+}
+#content {
+background-image:url(../images/content-corner.png);
+	background-position:right top;
+	background-repeat:no-repeat;}
+#footer {
+}
+
+#footer .section {
+}

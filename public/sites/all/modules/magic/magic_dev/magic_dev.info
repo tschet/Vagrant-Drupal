@@ -1,0 +1,12 @@
+name = Magic Development
+description = Development options for Magic
+core = 7.x
+package = Frontend
+
+dependencies[] = magic
+; Information added by Drupal.org packaging script on 2014-11-03
+version = "7.x-2.0"
+core = "7.x"
+project = "magic"
+datestamp = "1414980231"
+
